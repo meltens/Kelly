@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mijnrepo" name="Elmos Repo" version="1.0.0" provider-name="Elmos Repo">
+   <extension point="xbmc.addon.repository" name="Elmos Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/meltens/Kelly/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/meltens/Kelly/main/addons.xml.md5</checksum>
+			<datadir zip="true">mijn.githublink</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <summary lang="en">Voorbeeld Repo</summary>
+    <description lang="en">Dit is een voorbeeld repo met de youtube addon voor Kodi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
